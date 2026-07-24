@@ -237,15 +237,17 @@
 }
 
 .btn-primary {
-  background: var(--text-main);
-  color: var(--bg-primary);
-  border-color: var(--text-main);
+  background: rgba(56, 189, 248, 0.1);
+  color: var(--text-main);
+  border-color: rgba(56, 189, 248, 0.3);
 }
 
 .btn-primary:hover {
-  background: #ffffff;
+  background: rgba(56, 189, 248, 0.2);
+  border-color: var(--accent-yellow);
+  color: #ffffff;
   transform: translateY(-1px);
-  box-shadow: 0 4px 14px rgba(255, 255, 255, 0.15);
+  box-shadow: 0 4px 14px rgba(56, 189, 248, 0.15);
 }
 
 .btn-outline {
