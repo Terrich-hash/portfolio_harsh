@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient for subtle depth -->
+    <linearGradient id="catPatch" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7dd3fc" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0.95"/>
+    </linearGradient>
+    
+    <linearGradient id="earInner" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffcdd2"/>
+      <stop offset="100%" stop-color="#f8bbd0"/>
+    </linearGradient>
+    
+    <radialGradient id="blushGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ff7043" stop-opacity="0.6"/>
+      <stop offset="60%" stop-color="#ff8a65" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#ff8a65" stop-opacity="0"/>
+    </radialGradient>
+    
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000000" flood-opacity="0.4"/>
+    </filter>
+  </defs>
+
+  <!-- Dark container outline container -->
+  <g filter="url(#shadow)">
+    <!-- Cat Main Body & Ears Shape -->
+    <!-- White outer stroke for high contrast on dark backgrounds -->
+    <path d="M 125,480 
+             C 120,380 110,260 110,240
+             C 105,210 95,170 120,160
+             C 130,155 145,155 160,180
+             C 200,165 240,162 280,162
+             C 320,162 360,165 400,180
+             C 415,155 430,155 440,160
+             C 465,170 455,210 450,240
+             C 450,260 440,380 435,480
+             Z" 
+          fill="#ffffff" 
+          stroke="#000000" 
+          stroke-width="12" 
+          stroke-linejoin="round"/>
+          
+    <!-- Yellow Patch on Right Forehead/Ear -->
+    <path d="M 330,163 
+             C 360,165 400,180 400,180
+             C 415,155 430,155 440,160
+             C 461,168 456,200 452,225
+             C 440,260 410,290 360,285
+             C 335,282 320,220 330,163 Z" 
+          fill="url(#catPatch)" />
+
+    <!-- Yellow Bottom Left Body Accent Patch -->
+    <path d="M 124,475 
+             C 122,440 135,400 170,390
+             C 195,385 210,430 215,475 Z" 
+          fill="url(#catPatch)" />
+
+    <!-- Inner Ear Pink Left -->
+    <path d="M 135,170 C 145,160 155,175 160,195 C 145,190 138,180 135,170 Z" fill="url(#earInner)"/>
+    <!-- Inner Ear Pink Right -->
+    <path d="M 425,170 C 415,160 405,175 400,195 C 415,190 422,180 425,170 Z" fill="url(#earInner)"/>
+
+    <!-- Blush Cheeks Left -->
+    <ellipse cx="165" cy="305" rx="35" ry="20" fill="url(#blushGlow)"/>
+    <!-- Blush Cheeks Right -->
+    <ellipse cx="400" cy="305" rx="35" ry="20" fill="url(#blushGlow)"/>
+
+    <!-- Cute Eyes: Horizontal Sleek Black Bars (Chilled / Relaxed) -->
+    <!-- Left Eye Bar -->
+    <rect x="180" y="275" width="70" height="20" rx="4" fill="#111111"/>
+    <!-- Right Eye Bar -->
+    <rect x="320" y="275" width="70" height="20" rx="4" fill="#111111"/>
+    
+    <!-- Brow Curves -->
+    <path d="M 190,240 Q 215,225 240,240" fill="none" stroke="#111111" stroke-width="6" stroke-linecap="round"/>
+    <path d="M 330,240 Q 355,225 380,240" fill="none" stroke="#111111" stroke-width="6" stroke-linecap="round"/>
+
+    <!-- Cute Inverted V Mouth -->
+    <path d="M 270,335 L 285,348 L 300,335" fill="none" stroke="#111111" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <!-- Whiskers Left (3 Whiskers) -->
+    <path d="M 80,280 L 175,290" fill="none" stroke="#111111" stroke-width="7" stroke-linecap="round"/>
+    <path d="M 115,315 L 180,312" fill="none" stroke="#111111" stroke-width="7" stroke-linecap="round"/>
+    <path d="M 85,355 L 175,335" fill="none" stroke="#111111" stroke-width="7" stroke-linecap="round"/>
+
+    <!-- Whiskers Right (3 Whiskers) -->
+    <path d="M 490,280 L 395,290" fill="none" stroke="#111111" stroke-width="7" stroke-linecap="round"/>
+    <path d="M 455,315 L 390,312" fill="none" stroke="#111111" stroke-width="7" stroke-linecap="round"/>
+    <path d="M 485,355 L 395,335" fill="none" stroke="#111111" stroke-width="7" stroke-linecap="round"/>
+    
+    <!-- White outline highlight overlay around outer stroke -->
+    <path d="M 125,480 
+             C 120,380 110,260 110,240
+             C 105,210 95,170 120,160
+             C 130,155 145,155 160,180
+             C 200,165 240,162 280,162
+             C 320,162 360,165 400,180
+             C 415,155 430,155 440,160
+             C 465,170 455,210 450,240
+             C 450,260 440,380 435,480" 
+          fill="none" 
+          stroke="#ffffff" 
+          stroke-width="5"/>
+  </g>
+</svg>

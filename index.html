@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Harsh Choudhary — Machine Learning Engineer & Backend Developer</title>
+  <meta name="description"
+    content="Portfolio of Harsh Choudhary — Machine Learning Engineer, Backend Developer, Linux Enthusiast & Homelab Engineer. Building scalable APIs, AI pipelines, and self-hosted infrastructure.">
+  <meta name="author" content="Harsh Choudhary">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:ital,wght@0,400;0,500;0,600;0,700;1,400&display=scale"
+    rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="/src/styles/main.css">
+  <link rel="stylesheet" href="/src/styles/components.css">
+  <link rel="stylesheet" href="/src/styles/animations.css">
+</head>
+
+<body>
+
+  <!-- Navigation Bar -->
+  <header class="navbar">
+    <div class="container nav-container">
+      <a href="#" class="nav-brand">
+        <img src="/assets/logo.svg" alt="Harsh Choudhary Cat Logo" class="nav-logo-icon">
+        <span>harshchoudhary.dev</span>
+      </a>
+
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#homelab" class="nav-link">Homelab</a></li>
+          <li><a href="#experience" class="nav-link">Experience</a></li>
+          <li><a href="#writing" class="nav-link">Writing</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <div class="status-pill">
+          <span class="status-dot"></span>
+          <span>Available</span>
+        </div>
+        <button id="theme-toggle" class="theme-toggle-btn" title="Toggle theme">THEME</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="container hero-content">
+        <div>
+          <div class="hero-tag">// <span id="typing-target">Machine Learning Engineer</span><span
+              class="blinking-cursor">|</span></div>
+          <h1 class="hero-name">Harsh Choudhary</h1>
+          <p class="hero-bio">
+            I'm a Software Engineer focused on building complete end-to-end systems — from designing scalable backend
+            API architectures and deploying AI speech/vision models to managing production-like Linux server
+            infrastructure.
+          </p>
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">View Projects ↓</a>
+            <a href="https://github.com/terrich-hash" target="_blank" rel="noopener noreferrer"
+              class="btn btn-outline">GitHub ↗</a>
+            <a href="https://www.linkedin.com/in/harsh-choudhary-51b081200/" target="_blank" rel="noopener noreferrer"
+              class="btn btn-outline">LinkedIn ↗</a>
+            <a href="https://terrich-hash.github.io/terrich_blog/" target="_blank" rel="noopener noreferrer"
+              class="btn btn-outline">Blog ↗</a>
+            <button id="copy-email-btn" class="btn btn-accent">Copy Email</button>
+          </div>
+
+          <!-- Hero Metrics Banner -->
+          <div class="hero-stats-banner">
+            <div class="stat-box">
+              <span class="stat-number">20+</span>
+              <span class="stat-label">Self-Hosted Services</span>
+            </div>
+            <div class="stat-box">
+              <span class="stat-number">&lt;100ms</span>
+              <span class="stat-label">WavLM AI Speech Inference</span>
+            </div>
+            <div class="stat-box">
+              <span class="stat-number">40%</span>
+              <span class="stat-label">Query Latency Cut</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-avatar-box">
+          <div class="avatar-wrapper">
+            <img src="/assets/logo.svg" alt="Harsh Choudhary Avatar Logo" class="avatar-img">
+          </div>
+          <div class="avatar-caption">B.Tech CSE (Data Science)<br>NIU (2024–2028)</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About & Education Section -->
+    <section id="about" class="section">
+      <div class="container">
+        <span class="section-label">// ABOUT & ACADEMICS</span>
+        <h2 class="section-title">Background & Philosophy</h2>
+        <p class="section-desc">
+          Rather than only learning concepts theoretically, I believe in building real-world projects that solve
+          practical problems. My work spans backend engineering, ML pipelines, infrastructure automation, and
+          self-hosted environments.
+        </p>
+
+        <div class="about-grid">
+          <!-- Education Card -->
+          <div class="info-card">
+            <div class="info-card-header">
+              <h3 class="info-card-title">Education</h3>
+            </div>
+            <div class="edu-institution">Bachelor of Technology (B.Tech)</div>
+            <p style="color: var(--text-main); font-weight: 600; margin-bottom: 0.25rem;">Computer Science & Engineering
+              (Data Science)</p>
+            <div class="edu-meta">
+              <span>Noida International University</span>
+              <span>• 2024 – 2028</span>
+            </div>
+            <div>
+              <span class="gpa-badge">Current GPA: 8+/10</span>
+            </div>
+          </div>
+
+          <!-- Current Internship & Focus Card -->
+          <div class="info-card">
+            <div class="info-card-header">
+              <h3 class="info-card-title">Current Role & Focus</h3>
+            </div>
+            <div class="edu-institution">ML & Backend Intern @ C-DAC Noida</div>
+            <p class="project-desc">
+              Working on Machine Learning & Backend Engineering projects involving AI model inference systems, FastAPI
+              backend services, data preprocessing pipelines, and Linux server deployments.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Tech Stack Section (Easy to Understand) -->
+    <section id="skills" class="section">
+      <div class="container">
+        <span class="section-label">// TECHNICAL STACK MATRIX</span>
+        <h2 class="section-title">Areas of Expertise</h2>
+        <p class="section-desc">
+          Structured, human-readable breakdown of technologies I work with daily across software engineering &
+          infrastructure.
+        </p>
+
+        <div id="skills-grid-container" class="skills-grid">
+          <!-- Dynamically populated from JS -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+      <div class="container">
+        <span class="section-label">// FEATURED PROJECTS</span>
+        <h2 class="section-title">AI/ML & Backend Systems</h2>
+        <p class="section-desc">
+          Production-style projects combining AI model inference, scalable REST backend services, and clean system
+          architecture.
+        </p>
+
+        <!-- Category Filters -->
+        <div class="filter-bar">
+          <button class="filter-btn active" data-category="All">All Projects</button>
+          <button class="filter-btn" data-category="AI/ML">AI & Machine Learning</button>
+          <button class="filter-btn" data-category="Backend">Backend Engineering</button>
+        </div>
+
+        <div id="projects-grid-container" class="projects-grid">
+          <!-- Dynamically populated from JS -->
+        </div>
+
+        <!-- Deepfake Audio Interactive Pipeline Simulator -->
+        <div id="deepfake-demo" class="pipeline-container">
+          <div class="pipeline-header">
+            <div>
+              <span class="section-label" style="margin: 0;">// INTERACTIVE DEMO</span>
+              <h3 class="pipeline-title">Deepfake Audio Detection Pipeline Simulator</h3>
+            </div>
+            <button id="run-pipeline-btn" class="btn btn-accent">Run Pipeline Simulation</button>
+          </div>
+
+          <!-- Step Progression Grid -->
+          <div class="pipeline-steps-grid">
+            <div class="pipeline-step active" data-step="1">
+              <span class="step-num">STEP 1</span>
+              <span class="step-name">Audio Upload</span>
+            </div>
+            <div class="pipeline-step" data-step="2">
+              <span class="step-num">STEP 2</span>
+              <span class="step-name">Preprocessing</span>
+            </div>
+            <div class="pipeline-step" data-step="3">
+              <span class="step-num">STEP 3</span>
+              <span class="step-name">WavLM Extraction</span>
+            </div>
+            <div class="pipeline-step" data-step="4">
+              <span class="step-num">STEP 4</span>
+              <span class="step-name">Embeddings</span>
+            </div>
+            <div class="pipeline-step" data-step="5">
+              <span class="step-num">STEP 5</span>
+              <span class="step-name">XGBoost Classify</span>
+            </div>
+            <div class="pipeline-step" data-step="6">
+              <span class="step-num">STEP 6</span>
+              <span class="step-name">Prediction</span>
+            </div>
+          </div>
+
+          <!-- Demo Box -->
+          <div class="pipeline-demo-box">
+            <div class="demo-controls">
+              <span style="font-family: var(--font-mono); font-size: 0.8rem; color: var(--text-subtle);">Select Audio
+                Payload:</span>
+              <div class="audio-sample-selector">
+                <button class="sample-btn active" data-sample="human">Sample 1: Human Voice</button>
+                <button class="sample-btn" data-sample="synthetic">Sample 2: AI Voice</button>
+              </div>
+
+              <!-- Spectrogram Waveform Animation Box -->
+              <div class="spectrogram-display">
+                <div id="audio-waves-container" class="audio-waves">
+                  <div class="wave-bar"></div>
+                  <div class="wave-bar"></div>
+                  <div class="wave-bar"></div>
+                  <div class="wave-bar"></div>
+                  <div class="wave-bar"></div>
+                  <div class="wave-bar"></div>
+                  <div class="wave-bar"></div>
+                  <div class="wave-bar"></div>
+                  <div class="wave-bar"></div>
+                  <div class="wave-bar"></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="demo-results">
+              <div class="res-row">
+                <span>CLASSIFICATION:</span>
+                <span id="pred-text" style="font-weight: bold; color: var(--text-muted)">Awaiting Pipeline Run...</span>
+              </div>
+              <div class="res-row">
+                <span>CONFIDENCE:</span>
+                <span id="conf-text" style="color: var(--accent-yellow)">--%</span>
+              </div>
+              <div class="confidence-bar-bg">
+                <div id="conf-fill" class="confidence-bar-fill"></div>
+              </div>
+              <p id="step-desc-text" style="font-size: 0.8rem; margin-top: 1rem; color: var(--text-subtle);">
+                Click 'Run Pipeline Simulation' to trace WavLM speech representation extraction step by step.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Homelab Section -->
+    <section id="homelab" class="section">
+      <div class="container">
+        <div style="display: flex; justify-content: space-between; align-items: flex-end; margin-bottom: 1.5rem;">
+          <div>
+            <span class="section-label">// INFRASTRUCTURE & SELF-HOSTING</span>
+            <h2 class="section-title" style="margin-bottom: 0;">Personal Homelab Environment</h2>
+          </div>
+          <a href="https://terrich-hash.github.io/homelab/" target="_blank" rel="noopener noreferrer"
+            class="btn btn-outline">
+            Homelab Docs Site ↗
+          </a>
+        </div>
+        <p class="section-desc">
+          My primary sandbox for hands-on Linux administration, networking, Docker containerization, reverse proxies,
+          and backup automation.
+        </p>
+
+        <div id="homelab-grid-container" class="homelab-grid">
+          <!-- Dynamically populated from JS -->
+        </div>
+
+        <!-- Interactive Homelab Terminal Simulator -->
+        <div class="terminal-container">
+          <div class="terminal-header">
+            <div class="term-dots">
+              <span class="term-dot term-red"></span>
+              <span class="term-dot term-yellow"></span>
+              <span class="term-dot term-green"></span>
+            </div>
+            <span class="term-title">harsh@homelab:~ (bash)</span>
+          </div>
+          <pre id="terminal-output"
+            class="terminal-body">Type '<span style="color: var(--accent-yellow)">help</span>' to list available terminal commands.</pre>
+          <div class="terminal-input-row">
+            <span class="term-prompt">harsh@homelab:~$</span>
+            <input type="text" id="terminal-input" placeholder="type help, fetch, status, projects..."
+              autocomplete="off" spellcheck="false">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience & Leadership Section -->
+    <section id="experience" class="section">
+      <div class="container">
+        <span class="section-label">// WORK & LEADERSHIP</span>
+        <h2 class="section-title">Professional Experience</h2>
+        <p class="section-desc">
+          Practical engineering roles and community technical leadership events.
+        </p>
+
+        <div id="timeline-container" class="timeline">
+          <!-- Dynamically populated from JS -->
+        </div>
+
+        <div style="margin-top: 3.5rem;">
+          <h3 class="section-title" style="font-size: 1.4rem; margin-bottom: 1.25rem;">Leadership & Event Coordination
+          </h3>
+          <div id="leadership-container" class="about-grid">
+            <!-- Dynamically populated from JS -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Technical Writing Section -->
+    <section id="writing" class="section">
+      <div class="container">
+        <div style="display: flex; justify-content: space-between; align-items: flex-end; margin-bottom: 1.5rem;">
+          <div>
+            <span class="section-label">// PUBLICATIONS & DOCUMENTATION</span>
+            <h2 class="section-title" style="margin-bottom: 0;">Technical Writing & Articles</h2>
+          </div>
+          <a href="https://terrich-hash.github.io/terrich_blog/" target="_blank" rel="noopener noreferrer"
+            class="btn btn-outline">
+            Visit Technical Blog ↗
+          </a>
+        </div>
+        <p class="section-desc">
+          Articles and documentation explaining practical engineering decisions, deployment workflows, and AI
+          implementations.
+        </p>
+
+        <div id="articles-container" class="articles-list">
+          <!-- Dynamically populated from JS -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Visitor Feedback & Contact Section -->
+    <section id="feedback" class="section">
+      <div class="container">
+        <span class="section-label">// VISITOR FEEDBACK & CONTACT</span>
+        <h2 class="section-title">Leave Feedback or Connect</h2>
+        <p class="section-desc">
+          Have project inquiries, thoughts on my work, or feedback? Fill out the form below to send a message directly
+          to my inbox.
+        </p>
+
+        <div class="feedback-card reveal">
+          <form id="feedback-form" class="feedback-form">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="feedback-name" class="form-label">Your Name</label>
+                <input type="text" id="feedback-name" class="form-input" placeholder="e.g. Alex Rivera" required>
+              </div>
+              <div class="form-group">
+                <label for="feedback-email" class="form-label">Your Email</label>
+                <input type="email" id="feedback-email" class="form-input" placeholder="e.g. alex@example.com" required>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="feedback-message" class="form-label">Message or Feedback</label>
+              <textarea id="feedback-message" class="form-textarea" rows="4"
+                placeholder="Share your thoughts, feedback, or project inquiry..." required></textarea>
+            </div>
+            <div
+              style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 1rem;">
+              <button type="submit" id="feedback-submit-btn" class="btn btn-primary">Send Message →</button>
+              <span id="feedback-status" class="feedback-status-msg"></span>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <div class="footer-brand">
+        <img src="/assets/logo.svg" alt="Cat Logo" width="28" height="28">
+        <span>Harsh Choudhary</span>
+      </div>
+      <p style="font-size: 0.9rem; max-width: 500px; text-align: center;">
+        Building reliable software and self-hosted infrastructure. Available for ML, Backend, and Systems Engineering
+        roles.
+      </p>
+      <div class="footer-socials">
+        <a href="https://github.com/terrich-hash" target="_blank" rel="noopener noreferrer" class="nav-link">GitHub</a>
+        <a href="https://www.linkedin.com/in/harsh-choudhary-51b081200/" target="_blank" rel="noopener noreferrer"
+          class="nav-link">LinkedIn</a>
+        <a href="mailto:hc000269@gmail.com" class="nav-link">Email</a>
+        <a href="https://terrich-hash.github.io/homelab/" target="_blank" rel="noopener noreferrer"
+          class="nav-link">Homelab Docs</a>
+        <a href="https://terrich-hash.github.io/terrich_blog/" target="_blank" rel="noopener noreferrer"
+          class="nav-link">Technical Blog</a>
+      </div>
+      <div class="footer-copy">
+        © 2026 Harsh Choudhary. Built with modern vanilla Web & Vite.
+      </div>
+    </div>
+  </footer>
+
+  <!-- Toast Notification -->
+  <div id="toast" class="toast">
+    Email address copied to clipboard (hc000269@gmail.com)
+  </div>
+
+  <!-- Floating AI Assistant Chatbot -->
+  <div class="chatbot-widget">
+    <button id="chatbot-toggle" class="chatbot-toggle-btn" title="Ask AI Assistant">
+      <img src="/assets/logo.svg" alt="Harsh Logo" class="chat-logo-img">
+      <span class="chat-notif-dot"></span>
+    </button>
+
+    <div id="chatbot-window" class="chatbot-window">
+      <div class="chatbot-header">
+        <div class="chatbot-title-box">
+          <img src="/assets/logo.svg" alt="Harsh Logo" class="chat-header-logo">
+          <span class="chatbot-badge-dot"></span>
+          <span class="chatbot-title">Harsh AI Assistant</span>
+        </div>
+        <button id="chatbot-close" class="chatbot-close-btn" title="Close chat">×</button>
+      </div>
+
+      <div id="chatbot-messages" class="chatbot-messages">
+        <div class="chat-msg bot-msg">
+          Hello! I'm Harsh's AI Assistant. Ask me anything about Harsh's <strong>Projects</strong>,
+          <strong>Homelab</strong>, <strong>C-DAC Internship</strong>, <strong>Skills</strong>, or <strong>Contact
+            details</strong>!
+        </div>
+      </div>
+
+      <div id="chatbot-chips" class="chatbot-chips">
+        <button class="chat-chip" data-query="Tell me about Harsh">About</button>
+        <button class="chat-chip" data-query="What are his top projects?">Projects</button>
+        <button class="chat-chip" data-query="What is his homelab setup?">Homelab</button>
+        <button class="chat-chip" data-query="How can I contact him?">Contact</button>
+      </div>
+
+      <form id="chatbot-form" class="chatbot-form">
+        <input type="text" id="chatbot-input" placeholder="Ask anything about Harsh..." autocomplete="off">
+        <button type="submit" class="chatbot-send-btn">Send</button>
+      </form>
+    </div>
+  </div>
+
+  <script type="module" src="/src/js/app.js"></script>
+</body>
+
+</html>
