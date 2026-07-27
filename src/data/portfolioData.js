@@ -213,6 +213,13 @@ export const leadership = [
 
 export const articles = [
   {
+    title: "Building My Homelab: From an Old Laptop to a Self-Hosted Cloud",
+    category: "DevOps & Homelab",
+    readTime: "6 min read",
+    desc: "A complete guide to building a dual-server self-hosted homelab using an old Lenovo laptop running Arch Linux and an old Android phone running Termux Docker, linked via Tailscale Zero Trust and Nginx Proxy Manager.",
+    url: "https://terrich-hash.github.io/terrich_blog/posts/building-my-homelab-from-an-old-laptop-to-a-self-hosted-cloud/"
+  },
+  {
     title: "Building a Deepfake Audio Detection Pipeline with WavLM & XGBoost",
     category: "AI & ML",
     readTime: "6 min read",
