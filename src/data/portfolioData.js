@@ -175,13 +175,13 @@ export const experiences = [
   {
     role: "Machine Learning & Backend Intern",
     company: "Centre for Development of Advanced Computing (C-DAC), Noida",
-    period: "Present Internship",
+    period: "Completed Sep 2026",
     type: "Internship",
-    description: "Working on core Machine Learning models, Backend API architectures, audio/text data preprocessing, and deployment pipelines.",
+    description: "Worked on core Machine Learning models, Backend API architectures, audio/text data preprocessing, and deployment pipelines.",
     points: [
-      "Developing production AI inference models and REST API interfaces",
-      "Building automated data preprocessing pipelines for training datasets",
-      "Optimizing model inference latency on Linux server infrastructure"
+      "Developed production AI inference models and REST API interfaces",
+      "Built automated data preprocessing pipelines for training datasets",
+      "Optimized model inference latency on Linux server infrastructure"
     ]
   },
   {

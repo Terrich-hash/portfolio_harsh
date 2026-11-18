@@ -22,7 +22,7 @@ Available Commands:
 <span style="color: var(--accent-yellow)">Uptime:</span> 99.98% (Self-hosted 20+ containers)
 <span style="color: var(--accent-yellow)">Engineer:</span> ${personalInfo.name} (${personalInfo.handle})
 <span style="color: var(--accent-yellow)">Education:</span> B.Tech CSE (Data Science) @ NIU (GPA 8+/10)
-<span style="color: var(--accent-yellow)">Current Role:</span> ML & Backend Intern @ C-DAC Noida
+<span style="color: var(--accent-yellow)">Experience:</span> ML & Backend Intern @ C-DAC Noida (Completed Sep 2026)
 <span style="color: var(--accent-yellow)">Stack:</span> Python, Go, FastAPI, PyTorch, WavLM, Docker, PostgreSQL, Linux
 `,
     status: () => homelabServices.map(s => `[ONLINE] ${s.name.padEnd(20)} | ${s.tech.padEnd(18)} | ${s.desc}`).join("\n"),

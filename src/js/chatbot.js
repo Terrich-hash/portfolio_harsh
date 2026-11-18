@@ -115,12 +115,12 @@ export function initChatbot() {
 
     // 4. Who is Harsh / About / Education / Degree / NIU
     if (text.includes("who") || text.includes("about") || text.includes("education") || text.includes("background") || text.includes("gpa") || text.includes("degree") || text.includes("university") || text.includes("niu") || text.includes("tell me about harsh")) {
-      return `<strong>Harsh Choudhary</strong> is a Software Engineer specializing in Machine Learning, Backend Development, and Linux Homelab Infrastructure.<br><br>🎓 <strong>Academics:</strong> B.Tech CSE (Data Science) @ Noida International University (2024–2028, GPA 8+/10).<br>🚀 <strong>Current Role:</strong> ML & Backend Intern @ C-DAC Noida.`;
+      return `<strong>Harsh Choudhary</strong> is a Software Engineer specializing in Machine Learning, Backend Development, and Linux Homelab Infrastructure.<br><br>🎓 <strong>Academics:</strong> B.Tech CSE (Data Science) @ Noida International University (2024–2028, GPA 8+/10).<br>💼 <strong>Experience:</strong> Former ML & Backend Intern @ C-DAC Noida (Completed Sep 2026).`;
     }
 
     // 5. Internship / Experience / CDAC
     if (text.includes("intern") || text.includes("c-dac") || text.includes("experience") || text.includes("cdac") || text.includes("role") || text.includes("job")) {
-      return `Harsh is currently a <strong>Machine Learning & Backend Intern</strong> at <strong>Centre for Development of Advanced Computing (C-DAC), Noida</strong>.<br><br>Key Responsibilities:<br>• Developing AI inference models & REST APIs<br>• Automated audio/text dataset preprocessing<br>• Latency optimization on Linux server infrastructure.`;
+      return `Harsh completed his internship as a <strong>Machine Learning & Backend Intern</strong> at <strong>Centre for Development of Advanced Computing (C-DAC), Noida</strong> in September 2026.<br><br>Key Contributions:<br>• Developed AI inference models & REST APIs<br>• Automated audio/text dataset preprocessing<br>• Optimized latency on Linux server infrastructure.`;
     }
 
     // 6. Skills / Tech Stack / Languages
